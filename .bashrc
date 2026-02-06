@@ -27,9 +27,12 @@ unset rc
 #Starship (Make sure to install) 
 eval "$(starship init bash)"
 
+#----
+#Startup
+#----
 #########
-ls
-fastfetch
+lsd
+fastfetch --logo-color-1 red --logo-color-2 red
 #########
 
 #---------
@@ -67,9 +70,9 @@ fastfetch
 
 #Pacman 
 #------
-#alias Syu="sudo pacman -Syu"
-#alias Sy="sudo pacman -Sy"
-#alias pi="sudo pacman -S"
+alias Syu="sudo pacman -Syu"
+alias Sy="sudo pacman -Sy"
+alias pi="sudo pacman -S"
 #-----------------------
 
 #flatpak (On by Default)
@@ -77,3 +80,8 @@ fastfetch
 alias fp="flatpak update"
 alias fin="flatpak install"
 #-------------------------
+
+#Miss
+#----
+
+alias ls="lsd"
