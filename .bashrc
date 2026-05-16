@@ -44,7 +44,7 @@ fastfetch #--logo-color-1 red --logo-color-2 red
 #Nala
 #----
 #alias nu="sudo nala update"
-#alias npg="sudo nala upgrade"
+#alias nug="sudo nala upgrade"
 #alias install="sudo nala install"
 #--------------------------------
 
