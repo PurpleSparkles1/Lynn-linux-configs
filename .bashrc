@@ -51,7 +51,7 @@ fastfetch #--logo-color-1 red --logo-color-2 red
 #Apt
 #---
 #alias au="sudo apt update"
-#alias apg="sudo apt upgrade"
+#alias ag="sudo apt upgrade"
 #alias ai="sudo apt install"
 #--------------------------
 
