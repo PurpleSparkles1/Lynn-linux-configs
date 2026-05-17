@@ -84,5 +84,6 @@ alias fin="flatpak install"
 
 #Miss (Optional- may be need to be installed)
 #----
+#alias jellyfin="jellyfin-tui"
 #alias ls="ls -a --color=always --group-directories-first"
 #alias ls="lsd" 
