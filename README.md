@@ -6,4 +6,4 @@ Bashrc needs fastfetch starship installed or will result in errors!! Remove or c
 
  Can optionally install the Japanese fonts or emojis as my starship config has two of these noto emojis. - noto-fonts-cjk noto-fonts noto-fonts-emoji
 
-put fonts in local/share/fonts. Jetbrains mono for the terminal. sf pro for regular text and sf pro semibold for title text.
+Put fonts in local/share/fonts. Jetbrains mono for the terminal. sf pro for regular text and sf pro semibold for title text.
