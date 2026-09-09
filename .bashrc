@@ -41,17 +41,10 @@ fastfetch #--logo-color-1 red --logo-color-2 red
 #--------
 # -Uncomment package manager alias for distro-
 
-#Nala
-#----
-#alias nu="sudo nala update"
-#alias nug="sudo nala upgrade"
-#alias install="sudo nala install"
-#--------------------------------
-
 #Apt
 #---
-#alias au="sudo apt update"
-#alias ag="sudo apt upgrade"
+#alias aptu="sudo apt update"
+#alias apu="sudo apt upgrade"
 #alias ai="sudo apt install"
 #--------------------------
 
@@ -65,8 +58,8 @@ fastfetch #--logo-color-1 red --logo-color-2 red
 
 #Dnf
 #---
-#alias d="sudo dnf update"
-#alias di="sudo dnf install"
+#alias dnu="sudo dnf update"
+#alias dni="sudo dnf install"
 #--------------------------
 
 #Pacman 
@@ -74,11 +67,12 @@ fastfetch #--logo-color-1 red --logo-color-2 red
 #alias Syu="sudo pacman -Syu"
 #alias Sy="sudo pacman -Sy"
 #alias pi="sudo pacman -S"
+#alias ps="pacman -Ss"
 #-----------------------
 
 #flatpak (On by Default)
 #-------
-alias fp="flatpak update"
+alias fpu="flatpak update"
 alias fin="flatpak install"
 #-------------------------
 
